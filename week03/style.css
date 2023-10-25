@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  background: #000;
+  width: 100%;
+  height: 297px;
+  position: relative;
+  /* width: 100vw; */
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.week01-content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.week01-content h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 67px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.week01-content img {
+  width: 163.742px;
+  height: 163.742px;
+}
+
+/* finish-sec styling here  */
+
+.finish-main {
+  display: flex;
+  justify-content: center;
+}
+.finish-sec {
+  padding-top: 2rem;
+}
+
+.jacket-img img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.finish-sec h1 {
+  color: #000;
+  text-align: center;
+  font-size: 55.511px;
+  font-weight: 700;
+  line-height: 146.9%;
+}
+
+.finish-sec p {
+  color: #000;
+  font-size: 38px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 146.9%;
+}
+
+.finish-sec img {
+  width: 246.919px;
+  height: 319.488px;
+  text-align: center;
+}
+
+.date-content {
+  border-radius: 9.2px;
+  background: rgba(255, 237, 202, 0.7);
+  width: 307.773px;
+  height: 74px;
+  padding: 17px;
+  margin-bottom: 2rem;
+  margin: auto;
+}
+
+.date-content p {
+  color: #000;
+  text-align: center;
+  font-size: 36.6px;
+  font-weight: 400;
+}
+
+.submit-btn {
+  margin-top: 2rem;
+  width: 414.239px;
+  height: 78px;
+  border-radius: 50px;
+  background: #f2b643;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+/* responsive styling here ... */
+
+@media screen and (max-width: 600px) {
+  .hero {
+    background: #000;
+    width: 100%;
+    height: 197px;
+  }
+
+  .finish-sec {
+    padding-top: 1rem;
+  }
+
+  .week01icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .week01-content img {
+    width: 100.2px;
+    height: 100.2px;
+  }
+
+  .finish-sec h1 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130.9%;
+  }
+
+  .date-content {
+    border-radius: 9.2px;
+    background: rgba(255, 237, 202, 0.7);
+    width: 274.773px;
+    height: 74px;
+    padding: 17px;
+    margin-bottom: 2rem;
+    margin: auto;
+  }
+
+  .finish-sec p {
+    color: #000;
+    text-align: center;
+    font-size: 26.604px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .week01-content h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .submit-btn {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 306.239px;
+    height: 78px;
+    border-radius: 50px;
+    background: #f2b643;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}

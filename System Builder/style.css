@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+/* <!-- Here section banner styling here  --> */
+.main-sec {
+  background: #000;
+  width: 100%;
+  height: 297px;
+}
+
+.here-content h1 {
+  padding-top: 3.6rem;
+  color: #f2b643;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.here-content h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* <!-- Here section system builder styling here  --> */
+
+.content-box1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.content-box1 .box1 {
+  width: 213.664px;
+  height: fit-content;
+  border-radius: 10px;
+  background: #000;
+}
+
+/* card box styling here ... */
+
+.content-box1 .box1 .card-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.content-box1 .box1 .card-box h1 {
+  color: #f2b643;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.week1-icons {
+  width: 25%;
+  height: fit-content;
+}
+.content-box1 .box1 p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+.text-wrapper {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  color: #f2b643;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.text-wrapper1 {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  color: #818181;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.text-wrapper2 {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  color: #818181;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.text-wrapper3 {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  color: #818181;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.arrow-icons {
+  margin-top: -17px;
+  margin-right: auto;
+}
+
+.lockicons {
+  margin-top: -10px;
+  width: 20%;
+  height: fit-content;
+}
+
+/* box2 */
+
+.content-box1 .box2 {
+  width: 213.664px;
+  height: fit-content;
+  border-radius: 10px;
+  background: #d6d6d6;
+}
+
+.content-box1 .box2 .card-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.content-box1 .box2 .card-box h1 {
+  color: #f2b643;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content-box1 .box2 p {
+  color: #474646;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+/* box3 styling here ... */
+.content-box1 .box3 {
+  margin-top: 2rem;
+  width: 213.664px;
+  height: fit-content;
+  border-radius: 10px;
+  background: #d6d6d6;
+}
+
+.content-box1 .box3 .card-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.content-box1 .box3 .card-box h1 {
+  color: #f2b643;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content-box1 .box3 p {
+  color: #474646;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+/* box 4 styling here ... */
+
+.content-box1 .box4 {
+  margin-top: 1rem;
+  width: 213.664px;
+  height: fit-content;
+  border-radius: 10px;
+  background: #d6d6d6;
+}
+
+.content-box1 .box4 .card-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.content-box1 .box4 .card-box h1 {
+  color: #f2b643;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content-box1 .box4 p {
+  color: #474646;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+.system-builder-sec {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Responsive styleling here ... */
+
+@media screen and (max-width: 600px) {
+  .main-sec {
+    width: 100%;
+    height: 200px;
+  }
+
+  .content-box1 .box1 p {
+    text-align: initial;
+  }
+  .content-box1 .box2 p {
+    text-align: initial;
+  }
+  .content-box1 .box3 p {
+    text-align: initial;
+  }
+  .content-box1 .box4 p {
+    text-align: initial;
+  }
+
+  .content-box1 .box1 .card-box h1 {
+    color: #f2b643;
+    font-family: Montserrat;
+    font-size: 18.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .content-box1 .box2 .card-box h1 {
+    color: #f2b643;
+    font-family: Montserrat;
+    font-size: 18.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .content-box1 .box3 .card-box h1 {
+    color: #f2b643;
+    font-family: Montserrat;
+    font-size: 18.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .content-box1 .box4 .card-box h1 {
+    color: #f2b643;
+    font-family: Montserrat;
+    font-size: 18.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+
+  .contents {
+    text-align: -webkit-center;
+  }
+  .here-content h1 {
+    padding-top: 0;
+    color: #f2b643;
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .here-content h3 {
+    padding-top: 0;
+    color: #d6d6d6;
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .system-builder-sec {
+    display: block;
+  }
+
+  .rspimg {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .content-box1 {
+    margin: auto;
+  }
+
+  .content-box1 {
+    gap: 7px;
+  }
+
+  .box3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/*  */
+
+.hero {
+  background: #000;
+  width: 100%;
+  height: 297px;
+  position: relative;
+  /* width: 100vw; */
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
